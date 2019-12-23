@@ -1,0 +1,55 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_tuikit (0.0.1):
+    - Flutter
+    - TXIMSDK_TUIKit_iOS
+  - ISVImageScrollView (0.1.2)
+  - MMLayout (0.2.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.3.2):
+    - SDWebImage/Core (= 5.3.2)
+  - SDWebImage/Core (5.3.2)
+  - Toast (4.0.0)
+  - TXIMSDK_iOS (4.6.1)
+  - TXIMSDK_TUIKit_iOS (4.6.1):
+    - ISVImageScrollView
+    - MMLayout
+    - ReactiveObjC
+    - SDWebImage
+    - Toast
+    - TXIMSDK_iOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_tuikit (from `.symlinks/plugins/flutter_tuikit/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ISVImageScrollView
+    - MMLayout
+    - ReactiveObjC
+    - SDWebImage
+    - Toast
+    - TXIMSDK_iOS
+    - TXIMSDK_TUIKit_iOS
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_tuikit:
+    :path: ".symlinks/plugins/flutter_tuikit/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_tuikit: 88a39d69c8297ea568477ba54d6c0380edd56188
+  ISVImageScrollView: ba511d12a1661b40feb8921309c0854bf93ec749
+  MMLayout: 3fb59d58eeb8656c64e61d550fb0088e10666c11
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 6ac2eb96571bff96ecde31a987172c5934a0eb7d
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TXIMSDK_iOS: fe85c769896ebffcca191dfb24d93618dd736d62
+  TXIMSDK_TUIKit_iOS: 25ad776973bb5192ef62cddf4ea56e348393e6df
+
+PODFILE CHECKSUM: 3dbe063e9c90a5d7c9e4e76e70a821b9e2c1d271
+
+COCOAPODS: 1.8.4
