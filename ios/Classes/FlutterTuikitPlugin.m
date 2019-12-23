@@ -43,10 +43,15 @@
     }
     
     if ([@"enabledOfflinePush" isEqualToString:call.method]) {
+        // TODO: 离线消息推送.
         result(@"ok");
         return;
     }
     
+    if ([@"disableOfflinePush" isEqualToString:call.method]) {
+        // TODO: 离线消息推送.
+        result(@"ok");
+    }
     
     if ([@"login" isEqualToString:call.method]) {
         [self login: call result:result];

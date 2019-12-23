@@ -1,14 +1,19 @@
 # flutter_tuikit
 
-tuikit flutter plugin
+基于腾讯云TUIKit进行封装.
 
-## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## 开始
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+flutter_tuikit:
+	git: https://github.com/zzlhr/flutter_tuikit.git
+```
+
+
+
+## TODO LIST
+
+- [x] 聊天列表
+- [x] 聊天详情
+- [ ] 联系人列表

@@ -51,10 +51,12 @@ class FlutterTuikit {
     return await _channel.invokeMethod("genTestSignature", params);
   }
 
+  ///开启离线推送
   static void enabledOfflinePush() {
     _channel.invokeMethod("enabledOfflinePush", {});
   }
 
+  ///关闭离线推送
   static void disableOfflinePush() {
     _channel.invokeMethod("disableOfflinePush", {});
   }

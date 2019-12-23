@@ -57,6 +57,7 @@ class _MyAppState extends State<MyApp> {
                 child: Text("打开"),
                 onPressed: () async {
                   await FlutterTuikit.init(1400290495);
+                  /// 此步推荐换成服务器计算签名。
                   String sig = await FlutterTuikit.genTestSignature(
                     secretKey,
                     "zzlhr",
