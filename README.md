@@ -7,7 +7,7 @@
 
 ```yaml
 flutter_tuikit:
-	git: https://github.com/zzlhr/flutter_tuikit.git
+    git: https://github.com/zzlhr/flutter_tuikit.git
 ```
 
 
