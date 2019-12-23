@@ -12,6 +12,10 @@ flutter_tuikit:
 
 
 
+## Run Demo
+
+配置example --> lib --> main.dart 中的`sdkAppId`和`secretKey`
+
 ## TODO LIST
 
 - [x] 聊天列表

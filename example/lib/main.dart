@@ -13,6 +13,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
+  String sdkAppId = "";
   String secretKey = "";
   @override
   void initState() {
@@ -56,7 +57,11 @@ class _MyAppState extends State<MyApp> {
               RaisedButton(
                 child: Text("打开"),
                 onPressed: () async {
-                  await FlutterTuikit.init(1400290495);
+                  if(sdkAppId == "" || secretKey == ""){
+                    print("请配置sdkAppId和secretKey！");
+                    throw Exception("请配置sdkAppId和secretKey！");
+                  }
+                  await FlutterTuikit.init(sdkAppId);
                   /// 此步推荐换成服务器计算签名。
                   String sig = await FlutterTuikit.genTestSignature(
                     secretKey,
