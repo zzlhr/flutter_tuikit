@@ -3,8 +3,8 @@ package com.lhrsite.flutter_tuikit
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.annotation.NonNull;
-import android.support.v4.content.ContextCompat
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat
 import android.util.Log
 import com.lhrsite.flutter_tuikit.timsdk.GenerateTestUserSig
 import com.tencent.imsdk.TIMCallBack
