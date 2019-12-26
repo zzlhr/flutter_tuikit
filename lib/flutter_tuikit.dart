@@ -12,7 +12,7 @@ class FlutterTuikit {
 
   static int SDKAPPID = 0;
 
-  static Future<String> init(sdkAppId) async {
+  static Future<String> init(int sdkAppId) async {
     SDKAPPID = sdkAppId;
     Map<String, dynamic> params = {"sdkAppId": SDKAPPID};
     final String result = await _channel.invokeMethod("init", params);
