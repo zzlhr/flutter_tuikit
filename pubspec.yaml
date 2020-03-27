@@ -1,8 +1,8 @@
 name: flutter_tuikit
 description: tuikit flutter plugin
-version: 0.0.1
-author:
-homepage:
+version: 0.0.2
+author: zzlhr
+homepage: https://github.com/zzlhr/flutter_tuikit.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
